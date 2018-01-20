@@ -1,0 +1,53 @@
+[17-Jan-2018 21:11:44 Europe/Sofia] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/healog81/public_html/connectionToDB.php:2
+Stack trace:
+#0 /home/healog81/public_html/connectionToDB.php(2): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/healog81/public_html/readDB.php(4): require('/home/healog81/...')
+#2 {main}
+  thrown in /home/healog81/public_html/connectionToDB.php on line 2
+[17-Jan-2018 21:51:41 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[17-Jan-2018 22:05:07 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[17-Jan-2018 22:05:14 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[17-Jan-2018 22:32:35 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[17-Jan-2018 22:58:37 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[17-Jan-2018 23:01:12 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[17-Jan-2018 23:01:29 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[17-Jan-2018 23:02:57 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[17-Jan-2018 23:03:11 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[17-Jan-2018 23:07:58 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[17-Jan-2018 23:11:06 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[17-Jan-2018 23:11:29 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[17-Jan-2018 23:22:19 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/calculator.php:4) in /home/healog81/public_html/calculator.php on line 97
+[17-Jan-2018 23:22:22 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[17-Jan-2018 23:22:24 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/calculator.php:4) in /home/healog81/public_html/calculator.php on line 97
+[17-Jan-2018 23:22:32 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/calculator.php:4) in /home/healog81/public_html/calculator.php on line 97
+[17-Jan-2018 23:23:33 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/calculator.php:4) in /home/healog81/public_html/calculator.php on line 97
+[17-Jan-2018 23:23:47 Europe/Sofia] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/healog81/public_html/calculator.php on line 94
+[17-Jan-2018 23:23:47 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/calculator.php:1) in /home/healog81/public_html/calculator.php on line 95
+[17-Jan-2018 23:24:17 Europe/Sofia] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/healog81/public_html/calculator.php on line 94
+[17-Jan-2018 23:24:17 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/calculator.php:1) in /home/healog81/public_html/calculator.php on line 95
+[17-Jan-2018 23:25:01 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/calculator.php:4) in /home/healog81/public_html/calculator.php on line 97
+[17-Jan-2018 23:25:24 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/calculator.php:4) in /home/healog81/public_html/calculator.php on line 97
+[17-Jan-2018 23:25:35 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/calculator.php:4) in /home/healog81/public_html/calculator.php on line 97
+[17-Jan-2018 23:26:53 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/calculator.php:4) in /home/healog81/public_html/calculator.php on line 97
+[17-Jan-2018 23:27:01 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home/healog81/public_html/readDB.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/healog81/public_html/readDB.php on line 11
+[17-Jan-2018 23:27:44 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/calculator.php:4) in /home/healog81/public_html/calculator.php on line 97
+[17-Jan-2018 23:27:55 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/calculator.php:4) in /home/healog81/public_html/calculator.php on line 97
+[17-Jan-2018 23:28:24 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/calculator.php:4) in /home/healog81/public_html/calculator.php on line 97
+[17-Jan-2018 23:28:55 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/calculator.php:4) in /home/healog81/public_html/calculator.php on line 97
+[17-Jan-2018 23:29:07 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/calculator.php:4) in /home/healog81/public_html/calculator.php on line 97
+[17-Jan-2018 23:31:43 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/calculator.php:4) in /home/healog81/public_html/calculator.php on line 97
+[17-Jan-2018 23:31:54 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/calculator.php:4) in /home/healog81/public_html/calculator.php on line 97
+[17-Jan-2018 23:32:27 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/calculator.php:4) in /home/healog81/public_html/calculator.php on line 97
+[17-Jan-2018 23:34:20 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[20-Jan-2018 19:45:02 Europe/Sofia] PHP Warning:  A non-numeric value encountered in /home/healog81/public_html/readDB.php on line 28
+[20-Jan-2018 19:45:03 Europe/Sofia] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in /home/healog81/public_html/readDB.php on line 50
+[20-Jan-2018 19:45:44 Europe/Sofia] PHP Warning:  A non-numeric value encountered in /home/healog81/public_html/readDB.php on line 28
+[20-Jan-2018 19:45:45 Europe/Sofia] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in /home/healog81/public_html/readDB.php on line 50
+[20-Jan-2018 19:50:17 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[20-Jan-2018 19:50:20 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[20-Jan-2018 19:50:40 Europe/Sofia] PHP Warning:  A non-numeric value encountered in /home/healog81/public_html/readDB.php on line 28
+[20-Jan-2018 19:52:27 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[20-Jan-2018 19:57:52 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
