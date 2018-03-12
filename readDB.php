@@ -1,13 +1,16 @@
 <?php
-//notice 
+//notice
 error_reporting(E_ALL & ~E_NOTICE);
     require 'connectionToDB.php';
     $caloric = $_GET['caloric'];
     $idealWeight = intval($_GET['idealWeight']);
       $weight = intval($_GET['weight']);
+      $temp = $idealWeight;
+      $idealWeight = $weight;
+      $weight = $temp;
     if($caloric=='caloric'){
-        $idealWeight = $weight-$idealWeight;
-    $stmt = $conn->query('SELECT * FROM caloricFood where amountOfCalories>=300 ORDER BY amountOfCalories DESC Limit 3');
+
+    $stmt = $conn->query('SELECT * FROM caloricfood where amountOfCalories>=300 ORDER BY amountOfCalories DESC Limit 3');
     $statement = $stmt->fetchAll();
     echo "<p>Products that are highly caloric used for gaining weight: <br>";
     //$json = 'https://api.qwant.com/api/search/images?count=1&offset=1&q=';
@@ -25,7 +28,6 @@ $arr = json_decode($result,TRUE);
         echo $data['product'].'-'.$data['amountOfCalories'].'Cal<br><br>';
     }echo '</p>';}
     else{
-                $idealWeight = $weight+$idealWeight;
         $stmt = $conn->query('SELECT * FROM exercises order by id ASC');
     $statement = $stmt->fetchAll();
     echo "<p>Exercises that would help you lose weight: <br>";
@@ -42,7 +44,7 @@ curl_close($ch);
 $arr = json_decode($result,TRUE);
         echo ' <img src="'.$arr['hits']['0']['previewURL'].'" height="150" width="150">';
     }echo '</p>';
-    
+
     }
    // $tableName = 'dataof'.$_GET['username'];
     $statement = $conn->prepare('INSERT INTO dataofuser1(id,weight, idealWeight) VALUES(null,:weight, :idealWeight)');

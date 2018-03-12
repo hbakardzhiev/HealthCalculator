@@ -51,3 +51,56 @@ Stack trace:
 [20-Jan-2018 19:50:40 Europe/Sofia] PHP Warning:  A non-numeric value encountered in /home/healog81/public_html/readDB.php on line 28
 [20-Jan-2018 19:52:27 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
 [20-Jan-2018 19:57:52 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[22-Jan-2018 12:07:32 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home/healog81/public_html/readDB.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/healog81/public_html/readDB.php on line 11
+[30-Jan-2018 12:19:31 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[02-Feb-2018 17:20:58 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[02-Feb-2018 17:21:00 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[03-Feb-2018 18:08:27 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'i' (T_STRING), expecting ';' in /home/healog81/public_html/calculateAlcoholContent.php on line 9
+[03-Feb-2018 18:08:32 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'i' (T_STRING), expecting ';' in /home/healog81/public_html/calculateAlcoholContent.php on line 9
+[03-Feb-2018 18:08:33 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'i' (T_STRING), expecting ';' in /home/healog81/public_html/calculateAlcoholContent.php on line 9
+[03-Feb-2018 18:11:09 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'i' (T_STRING), expecting ';' in /home/healog81/public_html/calculateAlcoholContent.php on line 9
+[03-Feb-2018 18:20:23 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'i' (T_STRING), expecting ';' in /home/healog81/public_html/calculateAlcoholContent.php on line 9
+[03-Feb-2018 18:22:58 Europe/Sofia] PHP Parse error:  syntax error, unexpected '$i' (T_VARIABLE), expecting ';' in /home/healog81/public_html/calculateAlcoholContent.php on line 9
+[03-Feb-2018 18:23:32 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'i' (T_STRING), expecting ';' in /home/healog81/public_html/calculateAlcoholContent.php on line 26
+[03-Feb-2018 18:24:10 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'i' (T_STRING), expecting ';' in /home/healog81/public_html/calculateAlcoholContent.php on line 26
+[03-Feb-2018 18:24:43 Europe/Sofia] PHP Warning:  Use of undefined constant i - assumed 'i' (this will throw an Error in a future version of PHP) in /home/healog81/public_html/calculateAlcoholContent.php on line 35
+[03-Feb-2018 22:11:05 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[04-Feb-2018 12:56:30 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[04-Feb-2018 12:57:45 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[04-Feb-2018 12:58:17 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:6) in /home/healog81/public_html/logout.php on line 7
+[04-Feb-2018 13:01:02 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[04-Feb-2018 13:01:04 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[04-Feb-2018 13:01:21 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[04-Feb-2018 13:01:28 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[04-Feb-2018 13:01:37 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[04-Feb-2018 13:03:16 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[04-Feb-2018 13:04:34 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[04-Feb-2018 13:04:37 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[04-Feb-2018 13:04:39 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[04-Feb-2018 13:07:14 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[04-Feb-2018 13:09:19 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[04-Feb-2018 13:09:20 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[04-Feb-2018 13:09:21 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[04-Feb-2018 13:09:21 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[04-Feb-2018 13:09:35 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/healog81/public_html/logout.php:7) in /home/healog81/public_html/logout.php on line 8
+[04-Feb-2018 17:28:03 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/healog81/public_html/calculateCalciumIntake.php on line 26
+[04-Feb-2018 17:48:59 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in /home/healog81/public_html/logout.php on line 9
+[04-Feb-2018 22:13:15 Europe/Sofia] PHP Warning:  Use of undefined constant br - assumed 'br' (this will throw an Error in a future version of PHP) in /home/healog81/public_html/calculateCalciumIntake.php on line 26
+[04-Feb-2018 22:13:15 Europe/Sofia] PHP Warning:  Use of undefined constant br - assumed 'br' (this will throw an Error in a future version of PHP) in /home/healog81/public_html/calculateCalciumIntake.php on line 27
+[04-Feb-2018 22:13:16 Europe/Sofia] PHP Warning:  Use of undefined constant br - assumed 'br' (this will throw an Error in a future version of PHP) in /home/healog81/public_html/calculateCalciumIntake.php on line 26
+[04-Feb-2018 22:13:16 Europe/Sofia] PHP Warning:  Use of undefined constant br - assumed 'br' (this will throw an Error in a future version of PHP) in /home/healog81/public_html/calculateCalciumIntake.php on line 27
+[04-Feb-2018 22:13:16 Europe/Sofia] PHP Warning:  Use of undefined constant br - assumed 'br' (this will throw an Error in a future version of PHP) in /home/healog81/public_html/calculateCalciumIntake.php on line 26
+[04-Feb-2018 22:13:16 Europe/Sofia] PHP Warning:  Use of undefined constant br - assumed 'br' (this will throw an Error in a future version of PHP) in /home/healog81/public_html/calculateCalciumIntake.php on line 27
+[04-Feb-2018 22:13:16 Europe/Sofia] PHP Warning:  Use of undefined constant br - assumed 'br' (this will throw an Error in a future version of PHP) in /home/healog81/public_html/calculateCalciumIntake.php on line 26
+[04-Feb-2018 22:13:16 Europe/Sofia] PHP Warning:  Use of undefined constant br - assumed 'br' (this will throw an Error in a future version of PHP) in /home/healog81/public_html/calculateCalciumIntake.php on line 27
+[04-Feb-2018 22:13:16 Europe/Sofia] PHP Warning:  Use of undefined constant br - assumed 'br' (this will throw an Error in a future version of PHP) in /home/healog81/public_html/calculateCalciumIntake.php on line 26
+[04-Feb-2018 22:13:16 Europe/Sofia] PHP Warning:  Use of undefined constant br - assumed 'br' (this will throw an Error in a future version of PHP) in /home/healog81/public_html/calculateCalciumIntake.php on line 27
+[04-Feb-2018 22:13:16 Europe/Sofia] PHP Warning:  Use of undefined constant br - assumed 'br' (this will throw an Error in a future version of PHP) in /home/healog81/public_html/calculateCalciumIntake.php on line 26
+[04-Feb-2018 22:13:16 Europe/Sofia] PHP Warning:  Use of undefined constant br - assumed 'br' (this will throw an Error in a future version of PHP) in /home/healog81/public_html/calculateCalciumIntake.php on line 27
+[08-Feb-2018 13:21:31 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home/healog81/public_html/readDB.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/healog81/public_html/readDB.php on line 11

@@ -10,12 +10,13 @@ session_start();
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 <link rel="stylesheet" href="calculator.css" media="screen">
 <script type="text/javascript" src="calculateAlcoholContent.js"></script>
+<script type="text/javascript" src="loggedOrNot.js"></script>
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded" style="background-image:url('images/demo/backgrounds/01.png');">
+<div class="wrapper bgded" style="background-image:url('images/demo/backgrounds/01.png');" onload='getCook("username")'>
   <div id="pageintro" class="hoc split clear">
     <article class="box bg-coloured clear">
       <!-- ################################################################################################ -->
@@ -24,7 +25,7 @@ session_start();
       <footer>
         <ul class="nospace inline pushright">
             <li><a class="btn" href="index.html">Home</a></li>
-          <li><a class="btn inverse" href = 'logout.php'>Logout</a></li>
+          <li><a id="loggedOrNot" class="btn inverse" href = 'logout.php'>Logout</a></li>
         </ul>
       </footer>
       <!-- ################################################################################################ -->
@@ -38,8 +39,9 @@ session_start();
   <header id="header" class="hoc clear">
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">
-      <h1><a href="index.html">Health Calculator</a></h1>
-      <h1><a href="bloodAlcholContent.php">Blood alcohol content</a></h1>
+      <h1 style="float: left"><a href="calculator.php">Health Calculator</a></h1>
+        <h1 style="float: left"><a href="bloodAlcholContent.php">/ /Blood Alcohol Content Calculator</a></h1>
+        <h1 style="float: left"><a href="calciumCalculator.php">/ /Vitamin D Int.</a></h1>
     </div>
     <!-- ################################################################################################ -->
   </header>

@@ -17,7 +17,7 @@ if(weight-idealWeight>0)
     document.getElementById("idealWeight").innerHTML = text;
     text = (weight-idealWeight).toFixed(2);
     document.getElementById("advice").innerHTML = "The amount of exercise needed to lose " + text + " kilos of body fat per week:<br> Approximately "+(10*text).toFixed(2)+" hours of walking at 5kph (3mph) per week; <br> Approximately "+(4*text).toFixed(2)+" hours of jogging at 10kph (6mph) per week; <br> Approximately "+(4.5*text).toFixed(2)+" hours of cycling at around 20kph (12mph) per week.";
-    show('exercise',text);
+    show('exercise',idealWeight);
 }
 else{
     var text = (idealWeight-weight).toFixed(2);
@@ -26,7 +26,7 @@ else{
     text = (idealWeight-weight).toFixed(2);
     document.getElementById("advice").innerHTML = "It takes 3500 calories to add 0.5 kilos. You would need take "+3500*2*text+" calories in order to get fit.";
     document.getElementById("headingThird").innerHTML = "How would you do that?";
-    show('caloric',text);
+    show('caloric',idealWeight);
 }
 }
 // AJAX

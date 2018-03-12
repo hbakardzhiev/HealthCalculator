@@ -3,5 +3,8 @@
    unset($_SESSION["username"]);
    unset($_SESSION["password"]);
    unset($_SESSION['valid']);
-   echo '<p>You have cleaned session</p>';
-   header("Location: https://healthcalc.uchenici.bg/index.html");
+   foreach ($_COOKIE as $name => $value) {
+       setcookie($name, '', 1);
+   }
+   echo '<script type="text/javascript"> window.location = "https://healthcalc.uchenici.bg/index.html" </script>';
+   die();

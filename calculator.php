@@ -10,6 +10,7 @@ session_start();
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 <link rel="stylesheet" href="calculator.css" media="screen">
 <script type="text/javascript" src="externalScripts.js"></script>
+<script type="text/javascript" src="loggedOrNot.js"></script>
 <script src="fusioncharts.js"></script>
 <script src="fusioncharts.theme.ocean.js"></script>
 </head>
@@ -17,16 +18,16 @@ session_start();
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded" style="background-image:url('images/demo/backgrounds/01.png');">
+<div class="wrapper bgded" style="background-image:url('images/demo/backgrounds/01.png');" onload='getCook("username")'>
   <div id="pageintro" class="hoc split clear">
-    <article class="box bg-coloured clear"> 
+    <article class="box bg-coloured clear">
       <!-- ################################################################################################ -->
       <h2 class="heading">Health Calculator</h2>
       <p>This is a calculator that would help loose weight and calculate your daily income of calories.</p>
       <footer>
         <ul class="nospace inline pushright">
             <li><a class="btn" href="index.html">Home</a></li>
-          <li><a class="btn inverse" href = 'logout.php'>Logout</a></li>
+          <li><a id="loggedOrNot" class="btn inverse" href = 'logout.php'>Logout</a></li>
         </ul>
       </footer>
       <!-- ################################################################################################ -->
@@ -37,10 +38,12 @@ session_start();
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row1">
-  <header id="header" class="hoc clear"> 
+  <header id="header" class="hoc clear">
     <!-- ################################################################################################ -->
-    <div id="logo" class="fl_left">
-      <h1><a href="index.html">Health Calculator</a></h1>
+    <div id="logo"  class="fl_left">
+      <h1 style="float: left"><a href="calculator.php">Health Calculator</a></h1>
+        <h1 style="float: left"><a href="bloodAlcholContent.php">/ /Blood Alcohol Content Calculator</a></h1>
+        <h1 style="float: left"><a href="calciumCalculator.php">/ /Vitamin D Int.</a></h1>
     </div>
     <!-- ################################################################################################ -->
   </header>
@@ -49,7 +52,7 @@ session_start();
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
-  <main class="hoc container clear"> 
+  <main class="hoc container clear">
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="group">
@@ -81,7 +84,7 @@ session_start();
             <h3 id="headingThird">which way you would go?</h3>
             <p id="way"></p>
         </article>
-        
+
   </div>
     <!-- ################################################################################################ -->
     <!-- / main body -->
@@ -101,7 +104,7 @@ session_start();
  $hostdb = "localhost:3306";
  $userdb = "healog81_root";
  $passdb = "healog81_root";
- $namedb = "healog81_IT"; 
+ $namedb = "healog81_IT";
 $dbhandle = new mysqli($hostdb, $userdb, $passdb, $namedb);
 if ($dbhandle->connect_error) {
   exit("There was an error with your connection: ".$dbhandle->connect_error);
@@ -155,7 +158,7 @@ if ($dbhandle->connect_error) {
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row5">
-  <footer id="footer" class="hoc clear"> 
+  <footer id="footer" class="hoc clear">
     <!-- ################################################################################################ -->
     <div class="center btmspace-80 clear">
       <h6 class="font-x3 uppercase">Contact us</h6>
@@ -167,7 +170,7 @@ if ($dbhandle->connect_error) {
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row6">
-  <div id="copyright" class="hoc clear"> 
+  <div id="copyright" class="hoc clear">
     <!-- ################################################################################################ -->
     <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Health Calculator</a></p>
     <!-- ################################################################################################ -->
